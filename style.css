@@ -79,6 +79,32 @@ padding-top: 30px;
 span{
 	color: red;
 }
+.first-input{
+	margin-bottom: 30px;
+}
+
+/* javascript styling */
+.warn{
+ display: none;
+ 
+}
+
+.visibility{
+	display: block;
+	color: red;
+ text-align: right;
+ font-size: 0.7rem;
+font-weight: bold;
+} 
+
+
+/* .space-check{
+	margin-top: 0;
+	margin-bottom: 0;
+} */
+
+ 
+
 
 @media (max-width:500px){
 

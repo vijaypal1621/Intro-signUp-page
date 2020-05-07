@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!-- font link -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+<script src="index.js" type="text/javascript" defer></script>
 
 </head>
 <body class="overall">
@@ -36,12 +37,15 @@
 
 
 <form class="container">
-   <input class="input-box" type="text" name="first-name" placeholder="First Name"> <br>
-   <input class="input-box" type="text" name="last-name" placeholder="Last Name"> <br>
-  <input  class="input-box" type="email" name="email" placeholder="Email Address"> <br>
-  <input  class="input-box" type="password" name="password" placeholder="Password"> <br>
-<input class="claim-box" type="submit" name="claim" value=" CLAIM YOUR FREE TRIAL"><br>
-<p id ="log"></p>
+   <input class="input-box space-check first-input " type="text" name="first-name" placeholder="First Name"> 
+   <p class="warn ">First name cannot be empty! </p><br>
+   <input class="input-box space-check" type="text" name="last-name" placeholder="Last Name"> <br>
+   <p class="warn"> Last name cannot be empty!</p><br>
+ <input id="email2"  class="input-box space-check" type="email" name="email" placeholder="Email Address"> <br>
+ <p class="warn"> Email Address cannot be empty!</p><br>
+ <input  class="input-box space-check" type="password" name="password" placeholder="Password"> <br>
+ <p class="warn"> Password cannot be empty!</p><br>
+<input class="claim-box space-check" type="submit" name="claim" value=" CLAIM YOUR FREE TRIAL"><br>
   <h6 class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></h6>
 
 
@@ -59,7 +63,6 @@
     </p>
   </footer>
 
-<script src="index.js" type="text/javascript"></script>
 
 </body>
 </html>
