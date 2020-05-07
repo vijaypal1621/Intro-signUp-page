@@ -1,0 +1,137 @@
+.overall{
+background-image: url("images/bg-intro-desktop.png");
+background-color: hsl(0, 100%, 74%);
+}
+
+.paragraph {
+   color: white;
+   padding-left:100px;	
+   padding-right: 20px;
+   font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+
+}
+h1{
+	/*font-weight: 600;*/
+	line-height: 1.5;
+   font-size: 4rem;
+   color: white;
+   padding-left:100px;	
+}
+.main-heading{
+	font-family: 'Poppins', sans-serif;
+	font-size: 4rem;
+	margin-bottom: 30px;
+	margin-top: 250px;
+}
+
+.left{
+   padding-left:100px;	
+
+}
+.right-half{
+	margin-top: 150px;
+	margin-left: 50px;
+}
+
+.top-bar{
+	background-color: #035aa6;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	border-bottom:  5px solid;
+	border-color: #3b6978;
+	box-shadow: 2px solid;
+	border-radius: 10px;
+
+}
+.container{
+padding-top: 30px;
+	background-color: white;
+	border-radius: 10px;
+	
+
+}
+.input-box,.claim-box{
+	padding-left: 130px;
+	padding-right:150px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border:1px solid;
+}
+.claim-box{
+
+    border:0px solid;
+    background-color: hsl(154, 59%, 51%);
+}
+.terms{
+	font-size: 0.7rem;
+	color :hsl(246, 25%, 77%);
+	text-align: center;
+	padding-bottom: 30px;
+}
+span{
+	color: red;
+}
+.first-input{
+	margin-bottom: 30px;
+}
+
+/* javascript styling */
+.warn{
+ display: none;
+ 
+}
+
+.visibility{
+	display: block;
+	color: red;
+ text-align: right;
+ font-size: 0.7rem;
+font-weight: bold;
+} 
+
+
+/* .space-check{
+	margin-top: 0;
+	margin-bottom: 0;
+} */
+
+ 
+
+
+@media (max-width:500px){
+
+ .main-heading{
+ 	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 30px;
+	margin-top: 100px;
+ }
+ .right-half{
+ 	margin-top: 50px;
+ }
+ .top-bar{
+	padding-bottom: 30px;
+	padding-top: 20px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	box-shadow: 2px solid;
+	border-radius: 10px;
+ 	padding-left: 0px;
+padding-right: 0px;
+ }
+ .right-half{
+ 	width: 460px;
+ }
+
+
+}
+
+
